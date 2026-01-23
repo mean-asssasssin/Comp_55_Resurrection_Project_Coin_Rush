@@ -11,7 +11,8 @@ public class FileTest {
             writer.newLine();
             writer.write("Second Line");
             writer.newLine();
-            writer.write("Third Line");
+            writer.write("Third Line\n");
+            writer.write("Forth line \n");
         } catch (IOException e) {
             e.printStackTrace();
         }
