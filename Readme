@@ -1,1 +1,12 @@
-ReadMe 
+In this attempt I created a file reader that take levels that are stored in files and allows for them to be read.
+only one level form the oringals are finished But the others can be added once i create the text files for them.
+The plan to impilment them has changed twice as the first thing i tried was to make a file reader than just have it run off that data with old code
+I had to change that plan to make a new level loader and base level which basically just is able to create any level given its data
+I also had to make data files that just hold data for the other contructors this helps trouble shoot as I can see it in the errors of the code
+which data isnt being sent. These text files have a defined structure so that they can be read the correct way.
+currently the pause button doesnt work as in creating a new main appication process has changed how to add it
+It will be easy to add the function back in but for now I will just create levels and store its data in text files
+the index for levels has to be hand added but instead of creating a new class you can simply just create a text file.
+this improves the overall creations of levels.
+I currently do not have a end of levels command/ check that will be one thing to add so that the player doesnt click play next level when there is no level
+This is just because I do not know how many level I will be adding in the new world as said in one of my issues.
