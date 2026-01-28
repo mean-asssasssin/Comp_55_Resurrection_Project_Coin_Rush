@@ -1,0 +1,23 @@
+background Media/Background1.png
+time 30
+level 0
+
+player 100 300
+
+# Platforms (x y w h type)
+platform 100 400 100 30 STATIC
+platform 200 500 100 30 STATIC
+platform 400 600 100 30 STATIC
+platform 600 600 100 30 STATIC
+platform 800 500 100 30 STATIC
+platform 1000 500 100 30 STATIC
+
+# Coins
+coin 5
+
+# Enemies (platform index)
+enemy 1
+enemy 2
+
+# Door (requiredCoins x y)
+door 3 1025 415
